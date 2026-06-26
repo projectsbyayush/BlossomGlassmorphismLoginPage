@@ -41,7 +41,7 @@ body{
     input{
         width: 18rem;
         height: 2rem;
-        border:0.1rem solid rgb(202, 202, 202);
+        border:0.005rem solid rgba(0, 0, 0, 0.363);
         outline: none;
         border-radius: 0.2rem;
         background-color: rgba(255, 255, 255, 0.334);
