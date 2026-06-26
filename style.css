@@ -24,6 +24,13 @@ body{
         padding-top: 2rem;
     }
 }
+.reset-page .page-subcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    padding-top: 3rem;
+}
 #page-card{
     color: rgba(0, 0, 0, 0.229);
 }
