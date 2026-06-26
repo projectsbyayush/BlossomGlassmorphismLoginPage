@@ -14,9 +14,9 @@ body{
 .page-card{
     height: 30rem;
     width: 25rem;
-    background-color: rgba(255, 255, 255, 0.525);
-    backdrop-filter:blur(8px);
-    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.359);
+    backdrop-filter:blur(7px);
+    border-radius: 1rem;
 }
 .page-subcard{
     #page-title{
@@ -37,6 +37,7 @@ body{
     label{
         width: 18rem;
         text-align: left;
+        font-size: 0.75rem;
     }
     input{
         width: 18rem;
@@ -45,6 +46,7 @@ body{
         outline: none;
         border-radius: 0.2rem;
         background-color: rgba(255, 255, 255, 0.334);
+        padding-left: 0.5rem;
     }
     input:focus{
         border-color: #ff6b9d;
@@ -133,4 +135,15 @@ body{
     a:hover{
         text-decoration: underline;
     }
+}
+.window{
+    height: 10rem;
+    width: 25rem;
+    background-color: rgba(247, 247, 247, 0.319);
+    backdrop-filter: blur(7px);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff005579;
 }
